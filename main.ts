@@ -14,7 +14,7 @@ import { runBars, type BuyInput, type OrderInput, type SellInput, type BarsState
 const SYMBOL = 'CBBTC';
 const REF_BARS = 480;        // 8 hours of one-minute closes
 const MIN_BARS = 240;        // do not trade before half the reference window exists
-const DIP_BPS = 45n;         // buy this far under the mean
+const DIP_BPS = 50n;         // buy this far under the mean
 const TAKE_BPS = 180n;       // take profit
 const STOP_BPS = 80n;        // stop out
 const HOLD_BARS = 480;       // maximum holding time
